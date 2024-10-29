@@ -1,0 +1,54 @@
+.imagemap
+{
+	width:965px;
+	height:700px;
+	margin:20px 10px 10px 10px;
+}
+
+.imagemap .title
+{
+ 	width:100%;
+	height:20px;
+	font-size:18px;
+	font-weight:bold;
+	padding:10px;
+	text-align:center; 
+	border:1px solid #e6e6e6;
+}
+
+.imagemap #container
+{
+	width:682px;
+	height:auto;
+	padding:20px;
+	
+}
+
+input.color { width:120px !important;}
+.stuffbox { padding-left:15px;}
+.mouse-click
+{
+background:url(india-map-img.png);
+border: 1px solid black;
+height: 650px;
+margin-top: 10px;
+background-repeat:no-repeat;
+/*width: 960px;*/
+width:78%;
+
+}
+.marker
+{
+display:none;
+position:relative;
+z-index:2;
+}
+.pins { background: #000000 none repeat scroll 0 0;}
+.msg {
+    color:#F03;
+    font-size: 14px;
+    display:none;
+	padding-bottom:8px;
+}
+.loading { display:none; }
+#location_address { width:50% !important; height:200px !important; }

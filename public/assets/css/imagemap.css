@@ -1,0 +1,279 @@
+/*
+Image Map Stylesheet
+ */
+input.color{ 
+	width:120px !important;
+}
+.stuffbox {
+	padding-left:15px;
+}
+.mouse-click{
+	background:url(india-map-img.png);
+	border: 1px solid black;
+	height: 650px;
+	margin-top: 10px;
+	background-repeat:no-repeat;
+	width:78%;
+}
+.marker{
+	display:none;
+	position:relative;
+	z-index:2;
+}
+.pins{ 
+	background: #000000 none repeat scroll 0 0;
+}
+.office-dots a {
+    box-shadow: none;
+    border-radius: 50%;
+    display: block;
+    height: 18px;
+    position: absolute;
+    width: 18px;
+    border:none;
+}
+.mid-america-div{
+    transform: translate(-104%, -90px);
+}
+.mid-america-div {
+    background: #000 none repeat scroll 0 0;
+    left: 31.5%;
+    max-width: 352px;
+    position: absolute;
+    top: 21%;
+    width: 100%;
+    z-index: 999;
+}
+#formSearchOffice select {
+    -webkit-appearance: none;
+	-moz-appearance: none;
+	-o-appearance: none;
+	-ms-appearance: none;
+	appearance: none;
+    background-color: transparent;
+    background-image: none;
+    border: medium none;
+    box-shadow: none;
+    max-width: 140%;
+    padding: 4px 6px 0;
+    width: 130%;
+}
+.filterdiv {
+	clear:both;
+}
+.submit-btn input[type="submit"] {
+    background: #ec1b2d none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    height: 50px;
+    padding-top: 0px; padding-bottom: 0px; height: 38px;
+}
+.select {
+	background: #fff url("../images/select-arrow.png") no-repeat scroll right top;
+    border: 1px solid #717474;
+    cursor: pointer;
+    height: 34px;
+    overflow: hidden;
+    float:left;
+    width: 25%;
+    margin-left:5px;
+}
+.filterdiv : button, input, select, textarea {
+    background-color: #f7f7f7;
+    border-radius: 0;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    margin: 0;
+    max-width: 100%;
+    vertical-align: baseline;
+}
+#filterLoader {
+	display:none; 
+}
+.select-2 {
+    margin-left: 1%;
+    width: 21.6%;
+}
+.select-3 {
+    width: 18.4%;
+}
+.submit-btn {
+	margin-left: 10px; margin-top: -1px;
+    float: left;
+    height: 50px;
+    width: 20%;
+}
+.mid-america-div .close{
+	position:absolute;
+	right:5px;
+	top:5px;
+	display:block;
+	height:15px;
+	width:15px;
+	text-indent:-9999px;
+	z-index:10;
+}
+.mid-america-div .close:before, .mid-america-div .close:after{
+	content:" ";
+	display:block;
+	height:2px;
+	width:15px;
+	position:absolute;
+	left:0;
+	top:0;
+	bottom:0;
+	right:0;
+	margin:auto;
+	z-index:10;
+	background-color:#ffffff;
+	-webkit-transform:rotate(45deg);
+	-moz-transform:rotate(45deg);
+	-ms-transform:rotate(45deg);
+	-o-transform:rotate(45deg);
+	transform:rotate(45deg);
+}
+.mid-america-div .close:after{
+	-webkit-transform:rotate(-45deg);
+	-moz-transform:rotate(-45deg);
+	-ms-transform:rotate(-45deg);
+	-o-transform:rotate(-45deg);
+	transform:rotate(-45deg);
+}
+.hidden-xs{
+	display:block!important;
+}
+.visible-xs{
+	display:none!important;
+}
+.map-state-list, .broker-div{
+	display:block;
+}
+.office-text ul{
+	min-height:100px;
+}
+.office-text{
+	padding-right:15px;
+}
+.mid-america-logo{
+	max-width:296px;
+	width:100%;
+	margin:0px auto;
+	margin-bottom:27px;
+	margin-top:30px;
+}
+.profile_ofc{
+	height:58px;
+	padding-bottom:11px;
+	margin-bottom:10px;
+}
+.profile_ofc > img{
+	height:100%;
+	width:auto;
+}
+.office-text{
+	padding-left:29px;
+	color:#fff;
+	margin-top:27px;
+}
+.office-text span{
+	font-size: 1.2em;
+}
+.office-text ul{
+	margin-bottom:20px;
+	margin-top:10px;
+}
+.mid-america-div a.button{
+	width:100%;
+	color:#fff;
+	text-align:center;
+	font-weight:700;
+	line-height:47px;
+	display:block;
+	font-size:1.6em;
+	border-radius:0px;
+	padding-left: 0px !important; 
+	padding-right: 0px !important;
+}
+.office-text ul li{
+	list-style:inside none disc;
+	color:#fff;
+	font-size: 16px;
+}
+.office-text span{
+	border-bottom:2px solid #fff;
+	margin-bottom:10px;
+}
+.button {
+    background-color: #ec1b2d;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+}
+
+@media(min-width:320px) and (max-width:767px){
+    .mid-america-div{
+        transform: translate(-50%,0%) !important;
+           left: 48.062% !important;
+    top: 19.3972% !important; 
+    }
+	.select{
+		width:100% !important;
+		float:none;
+		margin-top:10px;
+	}   
+	.select-2
+	{
+		width:100% !important;
+		margin-left:5px !important;
+	}
+	.submit-btn{
+		height: 50px;
+		margin-left: 4px;
+		margin-top: 10px;
+		width: 100%;
+	}
+	#formSearchOffice select{
+		width:100% !important;
+	}
+	img{
+		max-width: 100%;
+		height: auto;
+		width:100% !important;
+	}
+}
+
+@media(min-width:768px) and (max-width:1024px){
+	.mid-america-div{
+        transform: translate(-50%,0%) !important;
+    }
+	.select{
+		width:49% !important;
+		float:left;
+		margin-top:10px;
+	}   
+	.select-2{
+		width:49% !important;
+		margin-left:5px !important;
+		float: left;
+	}
+	.submit-btn{
+		height: 50px;
+		margin-left: 4px;
+		margin-top: 10px;
+		width: 100%;
+	}
+	#formSearchOffice select{
+		width:100% !important;
+	}
+	img{
+		max-width: 100%;
+		height: auto;
+		width:100% !important;	
+	}
+}
